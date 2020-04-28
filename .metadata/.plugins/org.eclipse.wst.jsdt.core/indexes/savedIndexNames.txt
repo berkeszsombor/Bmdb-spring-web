@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\berke\bmdb-application-web\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4176041064.index
+3127561072.index
+1061409905.index
+1929328994.index
+1859372693.index
+2357242509.index

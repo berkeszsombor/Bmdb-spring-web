@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\berke\bmdb-application-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2807131742.index
+\bmdb-application-webmodule\src\main\java

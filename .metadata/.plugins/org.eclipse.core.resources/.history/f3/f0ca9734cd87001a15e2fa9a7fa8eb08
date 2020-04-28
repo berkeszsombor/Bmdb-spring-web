@@ -1,0 +1,10 @@
+package com.example.bmdb.web.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+
+	@RequestMapping(value="/getDateAndTime")
+	public ModelAndView getDateAndTime()
+}
