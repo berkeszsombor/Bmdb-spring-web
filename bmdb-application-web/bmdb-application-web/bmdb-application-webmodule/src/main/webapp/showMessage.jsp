@@ -8,7 +8,6 @@
 <body>
     
 Date and time: ${date_time}  <br>
-Media Name: ${media}  
 
 </body>
 </html>

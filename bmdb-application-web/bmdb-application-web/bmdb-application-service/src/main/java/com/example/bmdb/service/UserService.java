@@ -20,4 +20,9 @@ public class UserService {
     public void saveUser(User user){
             this.repo.save(user);
     }
+    
+    public User findUserByCred(String email, String password) {
+    	User newUser = this.repo.findByEmailAndPassword(email, password);
+    	return newUser;
+    }
 }

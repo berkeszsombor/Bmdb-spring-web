@@ -17,7 +17,7 @@ public class User {
 
     public  String email;
 
-    private String passWord;
+    private String password;
 
     @OneToMany(mappedBy = "creator"/*, fetch = FetchType.EAGER*//*, cascade = {CascadeType.ALL}*/)
     //@Fetch(FetchMode.SUBSELECT)
@@ -26,7 +26,7 @@ public class User {
     public User(String Name, String Email, String PassWord) {
         this.name = Name;
        this.email = Email;
-       this.passWord = PassWord;
+       this.password = PassWord;
        this.userReviews = new ArrayList<Review>();
     }
 
@@ -39,10 +39,10 @@ public class User {
     public String getEmail(){return this.email;}
     public void setEmail(String email){this.email = email;}
     public String getPassword() {
-        return passWord;
+        return password;
     }
     public void setPassword(String passWord) {
-        this.passWord=passWord;
+        this.password=passWord;
     }
     public void addReview(Review rev) {
         this.userReviews.add(rev);
